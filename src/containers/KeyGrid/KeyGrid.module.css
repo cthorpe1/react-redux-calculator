@@ -2,7 +2,13 @@
     display: grid;
     grid-template-rows: 50px 50px 50px 50px;
     grid-template-columns: 50px 50px 50px 50px;
-    grid-gap: 8px;
+    grid-gap: 5px;
+}
+
+.KeyGrid input {
+    background-color: #94958B;
+    color: white;
+    font-size: 1.2em;
 }
 
 .KeyGrid input:hover {

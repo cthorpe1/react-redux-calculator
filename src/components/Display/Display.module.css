@@ -1,4 +1,21 @@
 .Display {
-    padding: 15px;
-    width: 133px;
+    height: 50px;
+    width: 216px;
+    border: 1px solid black;
+    text-align: right;
+    background-color: white;
+}
+
+.Input {
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    font-size: 1.7em;
+}
+
+.Expression {
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    font-style: italic;
 }

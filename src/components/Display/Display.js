@@ -3,7 +3,10 @@ import React from 'react';
 import classes from './Display.module.css';
 const display = (props) => {
     return (
-        <input type="text" value="" className={classes.Display} />
+        <div className={classes.Display}>
+            <p className={classes.Expression}>{props.expression}</p>
+            <p className={classes.Input}>{props.value}</p>
+        </div>
     );
 }
 
